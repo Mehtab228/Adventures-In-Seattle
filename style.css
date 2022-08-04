@@ -37,3 +37,25 @@ main {
     margin: 0px auto;
     background-color: lightgreen;
 }
+
+section {
+    border: 1px solid black;
+    display: inline-block;
+    
+
+}
+
+.even-columns {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 1em;
+    justify-content: center;
+}
+.card {
+    padding: 1rem;
+    background: var(--clr-gradient);
+    border-radius: 0.25rem;
+  }
