@@ -59,3 +59,9 @@ section {
     background: var(--clr-gradient);
     border-radius: 0.25rem;
   }
+
+  .image2 {
+    padding-left: 5%;
+    height: 200px;
+    width: 250px;
+  }
