@@ -1,6 +1,6 @@
 header {
     border-bottom: 1px solid green;
-    margin: 0px 150px;
+    margin: 0px 223px;
     text-align: center;
     background-color: lightskyblue;
 }
@@ -34,6 +34,6 @@ text-align: center;
 }
 main {
     width: 960px;
-    margin: 10px auto;
+    margin: 0px auto;
     background-color: lightgreen;
 }
