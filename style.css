@@ -62,6 +62,16 @@ section {
 
   .image2 {
     padding-left: 5%;
-    height: 200px;
+    height: 194px;
     width: 250px;
+  }
+
+  h2 {
+    background-color: bisque;
+  }
+
+  footer {
+    background-color: lightskyblue;
+    border-top: 1px solid green;
+    margin: 0px 223px;
   }
