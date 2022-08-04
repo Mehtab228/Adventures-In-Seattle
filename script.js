@@ -49,6 +49,9 @@ function ask1(){
             alert ("Next time, please type yes or no")
         }
         }
+        else {
+            alert ("Next time, please type yes or no")
+        }
     }
     else {
         alert ("Next time, please type yes or no")
