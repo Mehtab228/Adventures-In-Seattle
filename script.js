@@ -76,6 +76,11 @@ function ask2(){
     }
 }
 
-
+function ask3(){
+    let response = prompt("How many people would you like to take? Please pick a value from 1 to 3");
+    for (let i = 0; i < response; i= i + 1){
+        document.write('<img src="stickperson.png"/>');
+    }
+}
 
 
