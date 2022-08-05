@@ -65,6 +65,15 @@ function ask2(){
     if (response == "hiking"){
         return document.write("<img src='hiking.jpeg'alt='The top of snow lake' class='image2'/>")
     }
+    else if (response == "kayaking"){
+        return document.write("<img src='kayak.jpeg'alt='kayaking south lake union'/>")
+    }
+    else if (response == "going out"){
+        return document.write("<img src='rooftop.jpeg'alt='rooftop bar'/>")
+    }
+    else {
+        return document.write("<img src='movienight.jpeg' alt='movie night at home'/>")
+    }
 }
 
 
