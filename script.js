@@ -9,7 +9,7 @@ function getName(){
         alert("Nice try Kassie");
         getName();
     } else {
-        document.write("Hey " + userName + ",Welcome to Seattle!");
+        document.write("Hey " + userName + ", Welcome to Seattle!");
         }
 }
 
@@ -59,6 +59,13 @@ function ask1(){
 }
 
 ask1()
+
+function ask2(){
+    let response = prompt("Which of the three do you enjoy the most hiking, kayaking, or going out?")
+    if (response == "hiking"){
+        return document.write("<img src='hiking.jpeg'alt='The top of snow lake' class='image2'/>")
+    }
+}
 
 
 
